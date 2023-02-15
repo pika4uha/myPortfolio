@@ -8,27 +8,119 @@
 h1{
     font-family: "Ubuntu-Medium", emoji;
     color: yellow;
+    text-align: center;
+    margin: 20px;
 }
+
+hr{
+    margin: 20px 0;
+    border: none; /*убрать существующую рамку*/
+    border-top: 2px solid yellow;
+}
+
 h2{
     font-family: "Ubuntu-Medium", emoji;
     color: aliceblue;
+    margin-top: 40px;
 }
+.h4-not-found{
+    font-family: "Ubuntu-Medium", emoji;
+    color: yellow;
+    text-align: center;
+    font-size: 86px;
+    margin: 250px 0;
+}
+
 p{
     font-family: "Ubuntu-Medium", emoji;
     color: aliceblue;
 }
+
 a{
     font-family: "Ubuntu-Medium", emoji;
     color: aliceblue;
 }
+
+button{
+    font-family: "Ubuntu-Medium", emoji;
+    padding: 10px 30px;
+    margin: 50px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+button:hover{
+    border: 2px solid yellow;
+    background-color: black;
+    color: yellow;
+}
+
+div{
+    text-align: center;
+}
+
 body{
     background-color: black;
 }
+
 img{
     width: 1000px;
     height: 600px;
+    border-radius: 30px;
 }
+img:hover{
+    opacity: 60%;
+}
+
 .cover{
     width: 400px;
     height: 550px;
+}
+.cover-description-down{
+    margin-top: 30px;
+}
+.description{
+    height: 500px;
+}
+
+.general-menu{
+    list-style: none; /*убираем маркеры из списка*/
+    margin: 0; /*убираем верхнее и нижнее поля по умолчанию (1em)*/
+    padding-left: 0; /*убираем левый отступ по умолчанию (40px)*/
+    text-align: center;
+}
+
+.general-menu-links{
+    text-decoration: none; /*убираем подчеркивание по умолчанию*/
+    padding: 10px 50px 10px 10px;
+}
+.general-menu-links:hover{
+    color: yellow;
+}
+.general-menu-links:focus{
+    color: yellow;
+}
+.general-menu-links:active{
+    color: yellow;
+}
+
+.back-menu{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.back-menu-link{
+    text-decoration: none;
+    padding: 50px 10px 10px 10px;
+}
+.back-menu-link:hover{
+    color: yellow;
+}
+
+li{
+    display: inline; /*превращение в строчный*/
+    margin-right: -4px; /*убираем расстояние между ними по умолчанию для дальнейшей стилизации*/
 }
